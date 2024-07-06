@@ -1,0 +1,75 @@
+@media (min-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navbar {
+    padding: 2rem 5rem;
+  }
+  .hero-img {
+    width: 90%;
+  }
+  .hero-img .phone {
+    display: none;
+  }
+  .hero-img .tablet {
+    display: flex;
+  }
+  .button-section {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .get-started {
+    padding: 2rem 4rem;
+  }
+  .heading-hero {
+    font-size: 5rem;
+    line-height: 10rem;
+  }
+  .para-hero .para {
+    font-size: 2.6rem;
+  }
+  .button-section .get-started,
+  .demo {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-list ul {
+    display: flex;
+    gap: 8rem;
+  }
+  .login-btn {
+    display: inline-block;
+  }
+  .hero-section {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img .phone {
+    display: none;
+  }
+  .hero-img .laptop {
+    display: flex;
+  }
+  .hero-img .tablet {
+    display: none;
+  }
+  .heading-hero {
+    font-size: 6rem;
+    line-height: 10rem;
+  }
+  .para-hero .para {
+    font-size: 2.6rem;
+  }
+  .button-section .get-started,
+  .demo {
+    font-size: 2rem;
+  }
+}
